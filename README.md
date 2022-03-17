@@ -189,11 +189,22 @@ rstudioapi::navigateToFile("netlify.toml")
 ## Step :  Customize your site with Wowchemy 🎨
 ##---------------    
     
-Change Contact page:
+1. Change Contact page:
 The core parameters for the website can be edited in the config/_default/params.yaml file.
+
+Use the following function to make open file - rstudioapi::navigateToFile("config/_default/params.yaml")
+
 Line 23, change to your personal information
 
-Change the Menu:
+Commit and Push
+
+
+
+2. Change Personal Information
+
+rstudioapi::navigateToFile("content/authors/admin/_index.md")
+
+4. Change the Menu:
 The main menu links in the navigation bar can be edited in the config/_default/menu.yaml file.
 
 - Personal information
