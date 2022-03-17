@@ -30,12 +30,11 @@ address:
   country: United States
   country_code: US
 coordinates:
-  latitude: '35.3050'
-  longitude: '120.6625'
+  latitude: '35.300998796'
+  longitude: '-20.6625'
 directions: 1st Floor in Building 25 room 113
 office_hours:
-  - 'Monday 10:00 to 13:00'
-  - 'Wednesday 09:00 to 10:00'
+  - 'Mon. - Fri. 10:00 am to 11:00 am'
 # appointment_url: 'https://calendly.com'
 # contact_links:
 #   - icon: twitter

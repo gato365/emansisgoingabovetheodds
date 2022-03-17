@@ -191,6 +191,7 @@ rstudioapi::navigateToFile("netlify.toml")
     
 Change Contact page:
 The core parameters for the website can be edited in the config/_default/params.yaml file.
+Line 23, change to your personal information
 
 Change the Menu:
 The main menu links in the navigation bar can be edited in the config/_default/menu.yaml file.
