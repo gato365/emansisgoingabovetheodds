@@ -200,9 +200,19 @@ Commit and Push
 
 
 
-2. Change Personal Information
+2a. Change Personal Information: Be careful with the information you provide
 
 rstudioapi::navigateToFile("content/authors/admin/_index.md")
+
+
+2b. How to change PDF of resume
+Follow this path project/static/uploads and add pdf, place pdf name in _index.md
+
+3. 
+
+
+
+
 
 4. Change the Menu:
 The main menu links in the navigation bar can be edited in the config/_default/menu.yaml file.
