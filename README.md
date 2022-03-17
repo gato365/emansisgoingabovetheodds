@@ -1,32 +1,41 @@
 # emansisgoingabovetheodds
-My project Website
+
+My project Website Outline
 
 
-Important Terminology 
-  - blogdwn? - website platform (i.e., Wordpress)
+Important Terminology - what is:
   - hugo? - static site generator
+  - blogdwn? - website platform (i.e., Wordpress)
   - Netlify? - web development platform
   - GitHub - version control (Google Doc) & Sharing
       - Commit - 
       - Push -
       - Pull - 
-      
   - YAML
 
-Prerequisites
+Prerequisites:
+
 *Good*  - Install a recent version of R and RStudio 
+
 *Mine*  - Create a GitHub account (use jamesijw23@gmail.com)
+
 *Dont Know*  - Connect RStudio to GitHub (preferably with HTTPS)
+
 *Create a new one*- Sign up with Netlify using your GitHub account
 
 
-Resources for getting started with GitHub 
+## Resources for getting started with GitHub 
+
 https://happygitwithr.com/github-acct.html
+
 https://the-turing-way.netlify.app/collaboration/github-novice.html#
+
 https://www.startyourlab.com/docs/github-accounts/
 
 ## Good Example
+
 https://www.kelly-bodwin.com/
+
 https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/
 
 
@@ -139,18 +148,19 @@ options(blogdown.hugo.version = "0.93.3")
 
     
 
-
+##----------------------------
 Step 5: Deploy site with Netlify
-Go to Netlify and sign up using your github profile
-netlify.com
-Click on Sites
-Click on Add New Sites
-Click on Import an Existing Project
-Click on GitHub and it should link up
-Click on the repository that connects to your repository
-Scroll down on the next page to Deploy Site
-Wait for Deploy bots
-Click Custom Domain
+##----------------------------
+
+- Go to Netlify and sign up using your github profile *netlify.com*
+- Click on Sites
+- Click on Add New Sites
+- Click on Import an Existing Project
+- Click on GitHub and it should link up
+- Click on the repository that connects to your repository
+- Scroll down on the next page to Deploy Site
+- Wait for Deploy bots
+- Click Custom Domain
 
 
 
@@ -158,11 +168,10 @@ Click Custom Domain
 
 Back in RStudio, change the baseurl to your new link in your configuration file:
 
-install.packages("rstudioapi")
-library(rstudioapi) # to easily navigate to files
-rstudioapi::navigateToFile("config.yaml") OR
-Go to the config folder click default, open config.yaml
-Do a control find for 'baseurl' and remove 'https://academic-demo.netlify.app/' and add your website name in quotes
+- install.packages("rstudioapi")
+- library(rstudioapi) # to easily navigate to files
+- rstudioapi::navigateToFile("config.yaml") OR Go to the config folder click default, open config.yaml
+- Do a control find for 'baseurl' and remove 'https://academic-demo.netlify.app/' and add your website name in quotes
 
 do a check - blogdown::check_site()
 
