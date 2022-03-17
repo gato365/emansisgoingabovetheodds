@@ -41,4 +41,5 @@ title: Work
 ---
 
 I am a lecturer in the statistics department at California Polytechnic State University-San Luis Obispo. I have a deep passion for teaching data science to students of all ages. I have experience teaching data carpentry, statistics, and machine learning to students from middle school all the way to college.
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/IJW_Curriculum_Vitae_Cal_Poly_01142022.pdf" "newtab" >}}resumé{{< /staticref >}}.
