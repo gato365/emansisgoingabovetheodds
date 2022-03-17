@@ -2,7 +2,7 @@
 
 My project Website Outline
 
-
+## Step : Knowledge
 Important Terminology - what is:
   - hugo? - static site generator
   - blogdwn? - website platform (i.e., Wordpress)
@@ -41,12 +41,12 @@ https://shilaan.rbind.io/post/building-your-website-using-r-blogdown/
 
 
 
-## Set Up First GitHub
+## Step :  Set Up First GitHub
 
 
 
 ##---------------
-## GitHub Setup
+## Step :  GitHub Setup
 ##---------------
 Step 1: Create a GitHub account with the same email that you use for R Studio cloud
 https://github.com/hadley
@@ -63,7 +63,7 @@ You can choose MIT License
 
 
 ##---------------
-## Setting Up Github Repository 1st time
+## Step :  Setting Up Github Repository 1st time
 ##---------------
 ☞︎ Go to https://github.com/your-username/your-repository
 ☞︎ Click on the green Code button
@@ -76,7 +76,7 @@ Click OK
 
 
 ##---------------
-## Save 1st file and committing it to GitHub
+## Step :  Save 1st file and committing it to GitHub
 ##---------------
 
 Create a R markdown file and delete content
@@ -98,7 +98,7 @@ Now click on pull and you can see both versions of the code you created
 
 
 ##---------------
-## Website Creation
+## Step :  Website Creation
 ##---------------
 
 
@@ -114,7 +114,7 @@ hit no to preview website
 
 
 ##---------------
-## Working with github
+## Step :  Working with github
 ##---------------
 
 Step 4: Push ⬆︎ to GitHub
@@ -127,6 +127,10 @@ First Set run
 .Ruserdata
 .DS_Store
 
+
+##---------------
+## Step :
+##---------------
 blogdown::check_site()
 
 Then add these to gitignore file
@@ -136,20 +140,21 @@ Thumbs.db
 .hugo_build.lock
 
 
-
-
+##---------------
+## Step : 
+##---------------
 Before we make our first commit, we use blogdown to check all our files:
 
 blogdown::check_site()
-Two boxes come up click save twice
 
+Two boxes come up click save twice
 
 options(blogdown.hugo.version = "0.93.3")
 
     
 
 ##----------------------------
-Step 5: Deploy site with Netlify
+## Step :  Deploy site with Netlify
 ##----------------------------
 
 - Go to Netlify and sign up using your github profile *netlify.com*
@@ -164,8 +169,9 @@ Step 5: Deploy site with Netlify
 
 
 
-
-
+##---------------
+## Step :
+##---------------
 Back in RStudio, change the baseurl to your new link in your configuration file:
 
 - install.packages("rstudioapi")
@@ -176,13 +182,12 @@ Back in RStudio, change the baseurl to your new link in your configuration file:
 do a check - blogdown::check_site()
 
 
-Double check HUGO locally and the version by Netlify  are  the same version  
-make sure that the version of Hugo that you are using locally with {blogdown} matches the version used by Netlify (which is specified in netlify.toml). You will likely need to change your netlify.toml file.
+Double check HUGO locally and the version by Netlify  are  the same version make sure that the version of Hugo that you are using locally with {blogdown} matches the version used by Netlify (which is specified in netlify.toml). You will likely need to change your netlify.toml file.
 rstudioapi::navigateToFile("netlify.toml") 
     
-    
-Step 6: Customize your site with Wowchemy 🎨
-    
+##---------------    
+## Step :  Customize your site with Wowchemy 🎨
+##---------------    
     
 Change Contact page:
 The core parameters for the website can be edited in the config/_default/params.yaml file.
@@ -190,11 +195,16 @@ The core parameters for the website can be edited in the config/_default/params.
 Change the Menu:
 The main menu links in the navigation bar can be edited in the config/_default/menu.yaml file.
 
-Personal information
-Widgets
-Menu
-Theme
-Website icon
-Step 7: Write your first post ✍
+- Personal information
+- Widgets
+- Menu
+- Theme
+- Website icon
+
+
+##---------------
+## Step :  Write your first post ✍
+##---------------
 We’re done! 💪
-        Acknowledgements
+        
+Acknowledgements
