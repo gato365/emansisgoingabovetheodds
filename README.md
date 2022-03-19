@@ -208,10 +208,20 @@ rstudioapi::navigateToFile("content/authors/admin/_index.md")
 2b. How to change PDF of resume
 Follow this path project/static/uploads and add pdf, place pdf name in _index.md
 
-3. 
-
-
-
+3. Change Theme
+- Find Theme at following website: https://themes.gohugo.io/
+- Select a theme and copy its github link from the page (if it is there)
+(
+example: https://github.com/apvarun/blist-hugo-theme 
+)
+- Go to terminal tab and cd themes
+- paste the link in terminal
+(
+example: 
+git clone https://github.com/apvarun/blist-hugo-theme.git themes/blist
+git submodule add https://github.com/apvarun/blist-hugo-theme.git themes/blist
+)
+4. Change Favicon
 
 
 4. Change the Menu:
